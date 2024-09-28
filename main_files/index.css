@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    color: #aaaaaa;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 8px;
+    font-size: 20px;
+}
+.nav
+{
+    background-color: #00050d;
+    height: 70px;
+}
+   ul{
+    padding-left: 300px;
+}
+.prime{
+       height: 100vh;
+       background-position: right;
+       background-repeat: no-repeat;
+       background-size: cover;   
+}
+#blockone{
+        height: 700px;
+       background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+       background-color: #000; 
+       background-position: top center;
+}
+#blocktwo{
+       background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+       background-color: #000; 
+}
+.blockone1
+    {
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.para
+   {
+    margin-bottom: 30px;
+   }
+   button{
+    padding: 15px 65px;
+    background-color: #0F79AF;
+    border-radius: 3px;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+   }
+   .para1
+   {
+    padding-right:800px ;
+   }
+#btnre
+{
+    padding: 15px100px;
+}
+#po,#iu{
+    color: #000;
+}
+/* .img{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    top: -700px;
+    left: 700px;
+}
+.img1{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    top: -830px;
+    left: 720px;
+}
+.img2{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    top: -965px;
+    left: 720px;
+}
+.img3{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    top: -1099px;
+    left: 720px;
+} */
+#container div{
+    height: 150px;
+    width: 220px;
+    /* border: solid; */
+    margin-bottom: 6px;
+    
+}
+#container div:hover{
+    box-shadow: 2px 1px 13px 5px black;
+}
+#container{
+    /* top: -800px; */
+    position: absolute;
+    bottom: -1450px;
+    left: 700px;
+}
+#po{
+display: flex;
+ flex-wrap: wrap;
+ margin: 20px;
+ padding-left: -15px;
+}
+#iu{
+    display: flex;
+     flex-wrap: wrap;
+     margin: 20px;
+     padding-left: -15px;
+}
+    .footerprime{
+        background-color: #222222;
+        height: 170px;
+        text-align: center;      
+    }
+    .footerprime #primeimg{
+        margin-top: 30px;
+        width: 150px;
+        height: 50px;
+    }
+    .footerprime a{
+        color: #79B8F3;
+        font-size: 20px;
+        text-decoration: none;
+        justify-content: space-around;
+    
+    
+    }
+    .footerprime #last{
+        color: #fff;;
+    }
+    
+/* #you{
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    margin: 0 auto;
+    position: absolute;
+}
+#ol,#reddy{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.c-li{
+    border: solid white;
+    
+}
+#p11{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#ol{
+    color: blue;
+} */
+/* .img2:hover{
+    transform: translatex(10deg);
+} */
+/* #blockseven,#blocksix,#blockfive{
+    height: fit-content;
+} */
+#primelogo{
+    position: relative;
+    left:160px;
+    height: 20px;
+    width: 88px;
+    top:35px
+}
+i{
+    color: snow;
+    right: -900px;
+    margin-left: 100px;
+}
+#en{
+
+    margin-left: 80px;
+}
+#sub{
+    margin-left: 20px;
+}
+#user{
+    left: -300px;
+    margin-right: 100px;
+}
+.ben:hover{
+    background-color:snow;
+    box-shadow: 4px 4px 4px 4px black;
+}
